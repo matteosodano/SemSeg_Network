@@ -221,7 +221,7 @@ class Trainer(object):
         self.batch_size = {'train':4, 'val':1}
         self.accumulation_steps = 4//self.batch_size['train']
         self.lr = 5e-4
-        self.num_epochs = 1
+        self.num_epochs = 20
         self.phases = ['train', 'val']
         self.best_loss = float('inf')
         self.device = torch.device("cuda:0")
