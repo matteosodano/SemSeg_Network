@@ -3,7 +3,7 @@ IMPLEMENTATION OF A SEMANTIC SEGMENTATION NETWORK
 Source: https://medium.com/analytics-vidhya/pytorch-implementation-of-semantic-segmentation-for-single-class-from-scratch-81f96643c98c
 
 Implementation is divided into 4 pipelines:
-1 Data Preprocessing: Converting train_mask images from .gif to .png, then we will convert both train and train mask
+1. Data Preprocessing: Converting train_mask images from .gif to .png, then we will convert both train and train mask
   images(.png) from their original dimension to new dimension[128,128]
 2. Dataloader: fetch images in batches apply transforms to them & then returns dataloders for train and validation
 3. Scores: calculating the required score
