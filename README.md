@@ -3,7 +3,7 @@ Code fully commented.
 Credits: [Medium](https://medium.com/analytics-vidhya/pytorch-implementation-of-semantic-segmentation-for-single-class-from-scratch-81f96643c98c)
 
 Dataset: [Carvana](https://www.kaggle.com/c/carvana-image-masking-challenge)
-Structure: ./carvana/<train, train_masks, train_masks.csv, test, metadata.csv>
+Structure: ./carvana/<train/, train_masks/, train_masks.csv, test/, metadata.csv>
 
 Requisites:
 - Python 3.8
